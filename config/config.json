@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ekyc-approval-trubore-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ekycApprovalTrubore/EkycApprovalTruboreWebPart.js",
+          "manifest": "./src/webparts/ekycApprovalTrubore/EkycApprovalTruboreWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EkycApprovalTruboreWebPartStrings": "lib/webparts/ekycApprovalTrubore/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

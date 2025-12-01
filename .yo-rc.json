@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.16.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "ekyc-approval-trubore",
+    "libraryId": "e12a21fa-a4fb-46ac-9a6f-86d3c31535a8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "EKYCApprovalTrubore",
+    "solutionShortDescription": "EKYCApprovalTrubore description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

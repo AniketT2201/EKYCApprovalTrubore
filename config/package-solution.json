@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ekyc-approval-trubore-client-side-solution",
+    "id": "e12a21fa-a4fb-46ac-9a6f-86d3c31535a8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "EKYCApprovalTrubore description"
+      },
+      "longDescription": {
+        "default": "EKYCApprovalTrubore description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ekyc-approval-trubore Feature",
+        "description": "The feature that activates elements of the ekyc-approval-trubore solution.",
+        "id": "6d303577-ac77-4a99-9c02-40b6e4b94c73",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ekyc-approval-trubore.sppkg"
+  }
+}
